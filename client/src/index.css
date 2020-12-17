@@ -1,0 +1,12 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body{
+    background-image: url("img/backimg.jpg");
+    background-size: cover;
+}
+.btn{
+    margin-right: 10px;
+}
+span{
+
+}
