@@ -54,7 +54,7 @@ exports.deleteFilm = async function(req, res){
     try{
         await Film.deleteOne({_id: req.params.id}, function(err, obj) {
             if (err) throw err;
-            console.log("1 film deleted");
+            
         })    }catch (e) {
         res.json({message:'Problems with id'})
     }
