@@ -7,7 +7,7 @@ export const HomePage = () => {
     return (
         <div>
             <h1>Film Master</h1>
-            <h4>Do not miss interesting movies, write down their names here!</h4>
+            <h4>Do not miss interesting movies, write down their titles here!</h4>
             <hr/>
             <h5>Some links:</h5>
             <div className="row">
